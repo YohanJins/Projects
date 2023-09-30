@@ -1,0 +1,19 @@
+Requirements Analysis
+Program Design
+    - Load posts
+    - Display menu
+    - Write a post
+    - Check post list
+    - View post details
+    - Edit post
+    - Delete post
+    - Save post
+Program Development
+    Post: Post number, Title, Content, Views/ Edit post, Increase views, Get attributes
+    Post Loading
+        If there is a data.csv file, load the posts.
+            Post Loading:
+                Read the data.csv file.
+                Create a Post instance for each line of data.
+                Save the instance in the Post list.
+        If there is no data.csv file, create one.
