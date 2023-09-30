@@ -1,0 +1,44 @@
+/* Author: Yohan Jin
+  Student Number: 000891436
+  Date: 017 Mar 2023
+  Assignment4 */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  margin: 20px;
+}
+
+#gameArea {
+  width: 480px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 320px) {
+  #gameArea {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #gameArea {
+    width: 100%;
+    height: 400px;
+  }
+}
